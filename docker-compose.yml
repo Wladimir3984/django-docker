@@ -1,0 +1,10 @@
+
+version: "3"
+
+services:
+  djangoapp:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./ficha-clinica/fichaClinica:/app
