@@ -2,7 +2,7 @@
 version: "3"
 
 services:
-  djangoapp:
+  djangoapp2:
     build: .
     ports:
       - "8000:8000"

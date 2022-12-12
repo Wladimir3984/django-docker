@@ -4,11 +4,7 @@ ENV PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-RUN apk update && \
-    apk add --no-cache --virtual .build-deps \
-    ca-certificates gcc postgresql-dev linux-headers musl-dev \
-    libffi-dev jpeg-dev zlib-dev \
-    git bash
+RUN apk update && apk add git bash
 
 COPY ./requirements.txt ./
 
