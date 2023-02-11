@@ -2,7 +2,7 @@
 version: "3"
 
 services:
-  djangoDocker:
+  djangodocker:
     build: .
     ports:
       - "8000:8000"
