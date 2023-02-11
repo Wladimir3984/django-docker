@@ -1,16 +1,20 @@
 # EJEMPLO DE PROJECTO DE DJANGO CON DOCKER, SOLO PARA USAR CON BD NATIVA DE DJANGO.
 
 ### Implementación
-
+------
 * clonar o descargar este repo
 
 ![image](https://user-images.githubusercontent.com/83993271/218275424-309cc719-eba8-4337-a2ab-6ea0cf6ef34c.png)
+
+si deseas que tu proyecto no se llame "proyecto" haz esto antes de seguir:
+
+![image](https://user-images.githubusercontent.com/83993271/218278118-20b33b50-cdd5-48cc-ac6e-2f41b922ed03.png)
 
 * crear carpeta "mi-proyecto":
 
 ![image](https://user-images.githubusercontent.com/83993271/218275473-0243b7d5-5915-4f7f-b31e-4f740310fd41.png)
 
-* dentro del directorio "mi-proyecto" crear un proyecto de django llamado "proyecto":
+* dentro del directorio "mi-proyecto" crear un proyecto de django llamado "proyecto"(o con el nombre que pusiste si editaste el Dockerfile y docker-compose):
 
 ![image](https://user-images.githubusercontent.com/83993271/218276176-042f532a-2947-4974-9229-d5059ac80f6e.png)
 ![image](https://user-images.githubusercontent.com/83993271/218276283-3355b928-12e8-4aee-afa7-64b6eab458f2.png)
@@ -30,8 +34,11 @@
 
 ![image](https://user-images.githubusercontent.com/83993271/218277154-29ca325f-cf8e-431a-91ca-74642f6f63e6.png)
 
-* ya podemos cerrar la consola y apagar o iniciar el container con docker desktop y trabajar en nuetro proyecto en "\django-docker\mi-proyecto\proyecto"
+* ya podemos cerrar la consola y apagar o iniciar el container con docker desktop y trabajar en nuestro proyecto en "\django-docker\mi-proyecto\proyecto"
 
 ![image](https://user-images.githubusercontent.com/83993271/218277306-28b5cf1a-1bdb-428a-ae88-270ca42a388a.png)
+
+ 
+ 
 
 
