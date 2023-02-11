@@ -1,4 +1,15 @@
-# EJEMPLO DE PROJECTO DE DJANGO CON DOCKER, SOLO PARA USAR CON BD NATIVA DE DJANGO.
+# EJEMPLO DE PROYECTO DE DJANGO CON DOCKER, SOLO PARA USAR CON BD NATIVA DE DJANGO.
+
+### Requisitos:
+------
+* python 3 o superior
+* django
+* docker desktop
+
+### Problemas
+------
+* es necesario tener python y django instalados, proximamente solo sera requisito tener docker desktop
+* debido al problema antes mencionado, el tener versiones de python y django locales que difieren de las instaladas en el container podria producir problemas(hasta ahora no he tenido problemas)
 
 ### Implementación
 ------
