@@ -2,9 +2,9 @@
 version: "3"
 
 services:
-  djangoapp2:
+  djangoDocker:
     build: .
     ports:
       - "8000:8000"
     volumes:
-      - ./ficha-clinica/fichaClinica:/app
+      - ./mi-proyecto/proyecto:/app
