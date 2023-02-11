@@ -2,9 +2,9 @@
 version: "3"
 
 services:
-  djangodocker:
+  web:
     build: .
     ports:
       - "8000:8000"
     volumes:
-      - ./mi-proyecto/proyecto:/app
+      - .:/code
