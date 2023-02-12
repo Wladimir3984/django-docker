@@ -20,12 +20,15 @@
 * iremos a la raiz del proyecto y ejecutaremos los siguientes comandos(asegurate de tener abierto docker desktop antes de ejecutar los comandos de docker):
 
     * docker-compose build
+    
       ![image](https://user-images.githubusercontent.com/83993271/218324594-97f0629d-8136-4a0d-bb61-e1ad0429939e.png)
 
     * docker-compose run web django-admin startproject nombreProyecto .
+    
       ![image](https://user-images.githubusercontent.com/83993271/218324700-2c0512d7-dd4b-429a-873c-976c82c06a27.png)
 
     * docker-compose up
+    
       ![image](https://user-images.githubusercontent.com/83993271/218324769-a22d5c4b-16c7-4878-904b-68d2b42e451d.png)
 
 * Ahora probaremos abrir localhost para confirmar que todo salio bien :)
@@ -37,7 +40,13 @@
 ![image](https://user-images.githubusercontent.com/83993271/218325086-0453aa0f-6229-4bfa-bf45-481092c45eb3.png)
 
 * Así queda la estructura del proyecto
+
 ![image](https://user-images.githubusercontent.com/83993271/218325320-a1e3b94f-46cb-4ff1-9e02-6df34fcc63c3.png)
+
+* Ejemplo de uso de Django en el container
+
+![image](https://user-images.githubusercontent.com/83993271/218325984-992c6001-ea68-47f6-88fd-affd04af453e.png)
+
 
 
  
