@@ -9,8 +9,10 @@ WORKDIR /code
 
 RUN apk update && apk add git bash
 
-COPY ./requirements.txt ./
+ADD ./requirements.txt /code/
 
 RUN pip install -r requirements.txt
+
+ADD . /code/
 
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
