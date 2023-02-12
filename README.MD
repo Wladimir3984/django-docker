@@ -17,37 +17,37 @@
 
 ![image](https://user-images.githubusercontent.com/83993271/218275424-309cc719-eba8-4337-a2ab-6ea0cf6ef34c.png)
 
-si deseas que tu proyecto no se llame "proyecto" haz esto antes de seguir:
+* iremos a la raiz del proyecto y ejecutaremos los siguientes comandos(asegurate de tener abierto docker desktop antes de ejecutar los comandos de docker):
 
-![image](https://user-images.githubusercontent.com/83993271/218278118-20b33b50-cdd5-48cc-ac6e-2f41b922ed03.png)
+    * docker-compose build
+    
+      ![image](https://user-images.githubusercontent.com/83993271/218324594-97f0629d-8136-4a0d-bb61-e1ad0429939e.png)
 
-* crear carpeta "mi-proyecto":
+    * docker-compose run web django-admin startproject nombreProyecto .
+    
+      ![image](https://user-images.githubusercontent.com/83993271/218324700-2c0512d7-dd4b-429a-873c-976c82c06a27.png)
 
-![image](https://user-images.githubusercontent.com/83993271/218275473-0243b7d5-5915-4f7f-b31e-4f740310fd41.png)
-
-* dentro del directorio "mi-proyecto" crear un proyecto de django llamado "proyecto"(o con el nombre que pusiste si editaste el Dockerfile y docker-compose):
-
-![image](https://user-images.githubusercontent.com/83993271/218276176-042f532a-2947-4974-9229-d5059ac80f6e.png)
-![image](https://user-images.githubusercontent.com/83993271/218276283-3355b928-12e8-4aee-afa7-64b6eab458f2.png)
-![image](https://user-images.githubusercontent.com/83993271/218276334-2c1b5822-03e0-484b-9803-e09d2c94faec.png)
-
-* ya con el proyecto creado, iremos a la raiz del proyecto y haremos un docker-compose build(asegurate de tener abierto docker desktop):
-
-![image](https://user-images.githubusercontent.com/83993271/218276541-4a319859-1e3d-49b1-9c7b-1bbe7bad2ac4.png)
-
-* una vez la imagen este creada levantaremos el container con docker-compose up:
-
-![image](https://user-images.githubusercontent.com/83993271/218276822-5fd40854-b143-456a-93ed-0bbaad5503ad.png)
-
-![image](https://user-images.githubusercontent.com/83993271/218277383-def78586-982d-4443-8f3e-0bbc548817e7.png)
+    * docker-compose up
+    
+      ![image](https://user-images.githubusercontent.com/83993271/218324769-a22d5c4b-16c7-4878-904b-68d2b42e451d.png)
 
 * Ahora probaremos abrir localhost para confirmar que todo salio bien :)
 
 ![image](https://user-images.githubusercontent.com/83993271/218277154-29ca325f-cf8e-431a-91ca-74642f6f63e6.png)
 
-* ya podemos cerrar la consola y apagar o iniciar el container con docker desktop y trabajar en nuestro proyecto en "\django-docker\mi-proyecto\proyecto"
+* ya podemos cerrar la consola y apagar o iniciar el container(para iniciar el server de Django) con docker desktop y trabajar en nuestro proyecto :D
 
-![image](https://user-images.githubusercontent.com/83993271/218277306-28b5cf1a-1bdb-428a-ae88-270ca42a388a.png)
+![image](https://user-images.githubusercontent.com/83993271/218325086-0453aa0f-6229-4bfa-bf45-481092c45eb3.png)
+
+* Así queda la estructura del proyecto
+
+![image](https://user-images.githubusercontent.com/83993271/218325320-a1e3b94f-46cb-4ff1-9e02-6df34fcc63c3.png)
+
+* Ejemplo de uso de Django en el container
+
+![image](https://user-images.githubusercontent.com/83993271/218325984-992c6001-ea68-47f6-88fd-affd04af453e.png)
+
+
 
  
  
