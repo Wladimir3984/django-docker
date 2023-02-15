@@ -1,4 +1,5 @@
 # EJEMPLO DE PROYECTO DE DJANGO CON DOCKER, SOLO PARA USAR CON BD NATIVA DE DJANGO.
+*Codigo basado en el repositorio https://github.com/mmorejon/docker-django (su proyecto es más completo)*
 
 ### Requisitos:
 ------
