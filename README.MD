@@ -24,7 +24,7 @@
     
       ![image](https://user-images.githubusercontent.com/83993271/218324594-97f0629d-8136-4a0d-bb61-e1ad0429939e.png)
 
-    * docker-compose run web django-admin startproject nombreProyecto .
+    * **OMITIR ESTE COMANDO SI YA TIENES CREADO TU PROYECTO DJANGO** docker-compose run web django-admin startproject nombreProyecto .
     
       ![image](https://user-images.githubusercontent.com/83993271/218324700-2c0512d7-dd4b-429a-873c-976c82c06a27.png)
 
