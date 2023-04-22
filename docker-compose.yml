@@ -1,10 +1,22 @@
-
-version: "3"
-
 services:
+  db:
+    image: postgres:15.2-alpine
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=postgres
+      - POSTGRES_USER=postgresexample
+      - POSTGRES_PASSWORD=postgres123456
   web:
     build: .
-    ports:
-      - "8000:8000"
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
+    ports:
+      - "8000:8000"
+    environment:
+      - POSTGRES_NAME=postgres
+      - POSTGRES_USER=postgresexample
+      - POSTGRES_PASSWORD=postgres123456
+    depends_on:
+      - db
