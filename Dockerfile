@@ -5,7 +5,7 @@ ENV PYTHONUNBUFFERED=1
 # Create code folder.
 RUN mkdir /code
 
-WORKDIR /code
+WORKDIR /co       kkde
 
 RUN apk update && apk add build-base && apk add bash
 
