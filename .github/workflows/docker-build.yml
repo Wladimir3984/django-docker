@@ -19,4 +19,4 @@ jobs:
     - name: Create Django project
       run: docker-compose run web django-admin startproject proyecto .
     - name: Start Docker Compose
-      run: docker-compose up
+      run: docker-compose up -d
