@@ -10,6 +10,7 @@
 ### Problemas
 ------
 * Se crean dos servicios web, pero el primero no sirve, ya que se crea antes de configurar la BD
+* Imposibilidad para instalar Pillow con pip
 
 ### Implementación/uso
 ------
