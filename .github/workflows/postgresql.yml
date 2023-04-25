@@ -13,4 +13,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Create Django Project
-      run: docker compose run web django-admin startproject composeexample .
+      run: docker-compose run web django-admin startproject composeexample .
