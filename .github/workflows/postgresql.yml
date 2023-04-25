@@ -15,6 +15,6 @@ jobs:
     - name: Create Django Project
       run: docker-compose run web django-admin startproject composeexample .
     - name: Replace settings for the test
-      run: cp -f ./setting_ci/settings.py /composeexample/
+      run: cp -f ./setting_ci/settings.py ./composeexample/
     - name: container up
       run: docker compose up -d
