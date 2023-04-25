@@ -1,0 +1,16 @@
+name: Django Postgre CI
+
+on:
+  push:
+    branches: [ "db_postgresql" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Create Django Project
+      run: docker compose run web django-admin startproject composeexample .
